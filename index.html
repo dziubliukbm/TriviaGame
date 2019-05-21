@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="first_pg">
+        <button id="start">START</button>
+    </div>
+    <div id="second_pg">
+        <h1>Totaly trivial trivia</h1>
+        <h2 >Time Remaining: <h2 id="timer_field">40</h2></h2>
+        <h3>What was the first full length of CGI movie?</h3>
+        <ul class="question" name="question">
+            <label><input id="Bugs" type="radio" class="question1" value="0" />A Bugs life</label>
+            <label><input id="Monsters" type="radio" class="question1" value="0" />Monsters Inc.</label>
+            <label><input id="Toy" type="radio" class="question1" value="1" />Toy Story</label>
+            <label><input id="Lion" type="radio" class="question1" value="0" />The Lion King</label>
+        </ul>
+        <h3>Which one of this is NOT a name of the Spice Girls?</h3>
+        <ul class="question">
+            <label><input id="Sporty" type="radio" class="question2" value="0" />Sporty Girl</label>
+            <label><input id="Fred" type="radio" class="question2" value="1" />Fred Girl</label>
+            <label><input id="Scary" type="radio" class="question2" value="0" />Scary Girl</label>
+            <label><input id="Push" type="radio" class="question2" value="0" />Push Girl</label>
+        </ul>
+        <h3>Which NBA won the moust titles in the 90s? </h3>
+        <ul class="question">
+            <label><input id="Knicks" type="radio" class="question3" value="0" />New York Knicks</label>
+            <label><input id="Pistons" type="radio" class="question3" value="1" />Detroit Pistons</label>
+            <label><input id="Lakers" type="radio" class="question3" value="0" />Los Angeles Lakers</label>
+            <label><input id="Bulls" type="radio" class="question3" value="0" />Chicago Bulls</label>
+        </ul>
+        <h3>Which question4 released the hit song, "Smells Like Teen Spirit"?</h3>
+        <ul class="question">
+            <label><input id="Nirvana" type="radio" class="question4" value="1" />Nirvana</label>
+            <label><input id="Boys" type="radio" class="question4" value="0" />BackStreet Boys</label>
+            <label><input id="Offspring" type="radio" class="question4" value="0" />The Offspring</label>
+            <label><input id="Doubt" type="radio" class="question4" value="0" />No Doubt</label>
+        </ul>
+        <button id="btn2">Done</button>
+    </div>
+    <div id="end_page">
+        <h1>Totaly trivial trivia</h1>
+        <h2>All Done</h2>
+        <p id="correct"></p>
+        <p id="incorrect"></p>
+        <p id="unanswered"></p>
+    </div>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script> 
+</body>
+</html>
